@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Paper Rock Scissors</title>
+    </head>
+    <body>
+        <div class="text-center">
+            <h3>Choose your weapon!</h3>
+            <button class="btn btn-success" onclick="play('paper')">Paper</button>
+            <button class="btn btn-success" onclick="play('rock')">Rock</button>
+            <button class="btn btn-success" onclick="play('scissors')">Scissors</button>
+            <hr>
+            <h3>The Computer picks:</h3>
+            <h4 id="picks"></h4>
+            <h3 id="outcome"></h3>
+            <button class="btn" onclick="reset()">Clear</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
