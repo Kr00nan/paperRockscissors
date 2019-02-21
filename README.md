@@ -1,2 +1,2 @@
 # paperRockscissors
-BCW: paper, rock, scissors challenge
+[BoiseCodeWorks] paper, rock, scissors challenge
